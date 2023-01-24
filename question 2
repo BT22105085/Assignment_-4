@@ -1,0 +1,16 @@
+# Assignment 4
+# Question 2
+
+print ("enter a year and i would tell u whether it's a leap year or not")
+y=input ()
+try:
+  y=int(y)
+  if y%4==0:
+    if y%100==0 and y%400==0:
+      print ("Yes it's a leap year")
+    elif y%100!=0:
+      print (" yes it's a leap year ")
+    else:
+      print ("it's not a leap year")
+except ValueError or NameError:
+  print("enter a valid year")
