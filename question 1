@@ -1,0 +1,27 @@
+[10:49 AM, 1/23/2023] Prashant Kashyap: # Assignment 6
+# Question 6
+
+# Assignment 4
+# Question 1
+
+print ("Dear student enter ur marks")
+m=input ()
+try :
+  m=float (m) 
+  if m<25 :
+    print ("Ur grade corresponding to the given marks is 'F'")
+  elif m>=25 and m<=45:
+      print ("Ur grade corresponding to the given marks is 'E'")
+  elif m>45 and m<=50:
+      print ("Ur grade corresponding to the given marks is 'D'")
+  elif m>50 and m<=60:
+      print ("Ur grade corresponding to the given marks is 'C'")
+  elif m>61 and m<=80:
+    print ("Ur grade corresponding to the given marks is 'B'")
+  else :
+    print ("Ur grade corresponding to the given marks is 'A'")
+    
+   
+
+except ValueError or NameError :
+  print ("\nKindly enter a valid number")
